@@ -45,6 +45,9 @@ Target System               => MediaTek Ralink MIPS
 Subtarget                   => MT7628 based boards
 Target Profile              => Default
 Utilities > fusee-nano-mod  => <*>
+LuCI > Collections          => luci
+LuCI > Applications         => luci-app-command
+
 ```
 
 4. Compile!
