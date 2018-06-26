@@ -4,7 +4,7 @@ Mod from: https://github.com/DavidBuchanan314
 
 Instructions/files for building a custom LEDE/OpenWRT image to turn cheap routers into a Nintendo Switch "modchip"/"dongle"
 
-These instructions target the "MT7682" devices, although you should be able to make this work on any router with USB host support.
+These instructions target the "MT7628" devices, although you should be able to make this work on any router with USB host support.
 
 
 # Usage
@@ -45,7 +45,7 @@ When in the configuration menu, you will need to set the following options:
 
 ```
 Target System               => MediaTek Ralink MIPS
-Subtarget                   => MT7688 based boards
+Subtarget                   => MT7628 based boards
 Target Profile              => Default
 Utilities > fusee-nano-mod  => <*>
 LuCI > Collections          => luci
@@ -61,5 +61,5 @@ make -j12
 If all goes well, you should find files ready to flash here:
 
 ```
-bin/targets/ramips/mt7688/lede-ramips-mt7688-widora-neo-squashfs-sysupgrade.bin
+bin/targets/ramips/mt7628/lede-ramips-mt7628-mt7628-squashfs-sysupgrade.bin
 ```
