@@ -1,4 +1,7 @@
 # Fusee-lede Quick Mod
+
+Mod from: https://github.com/DavidBuchanan314
+
 Instructions/files for building a custom LEDE/OpenWRT image to turn cheap routers into a Nintendo Switch "modchip"/"dongle"
 
 These instructions target the "MT7682" devices, although you should be able to make this work on any router with USB host support.
@@ -58,5 +61,5 @@ make -j12
 If all goes well, you should find files ready to flash here:
 
 ```
-bin/targets/ramips/mt7628/lede-ramips-mt7688-mt7688-squashfs-sysupgrade.bin
+bin/targets/ramips/mt7688/lede-ramips-mt7688-widora-neo-squashfs-sysupgrade.bin
 ```
