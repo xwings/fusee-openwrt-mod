@@ -1,7 +1,7 @@
-# Originally from fusee-lede quick hack xwings
-Instructions/files for building a custom LEDE image to turn cheap routers into a Nintendo Switch "modchip"/"dongle"
+# Fusee-lede Quick Mod
+Instructions/files for building a custom LEDE/OpenWRT image to turn cheap routers into a Nintendo Switch "modchip"/"dongle"
 
-These instructions target the "MTK 7682" devices, although you should be able to make this work on any router with USB host support.
+These instructions target the "MT7682" devices, although you should be able to make this work on any router with USB host support.
 
 
 # Usage
