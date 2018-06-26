@@ -42,7 +42,7 @@ When in the configuration menu, you will need to set the following options:
 
 ```
 Target System               => MediaTek Ralink MIPS
-Subtarget                   => MT7628 based boards
+Subtarget                   => MT7688 based boards
 Target Profile              => Default
 Utilities > fusee-nano-mod  => <*>
 LuCI > Collections          => luci
@@ -58,5 +58,5 @@ make -j12
 If all goes well, you should find files ready to flash here:
 
 ```
-bin/targets/ramips/mt7628/lede-ramips-mt7628-mt7628-squashfs-sysupgrade.bin
+bin/targets/ramips/mt7628/lede-ramips-mt7688-mt7688-squashfs-sysupgrade.bin
 ```
