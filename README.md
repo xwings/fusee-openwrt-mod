@@ -18,7 +18,7 @@ Note: payload.bin is from https://sx.xecuter.com/download/payload.bin
 1. Clone this repo, and the main LEDE / Openwrt repo
 
 ```sh
-git clone https://github.com/xwings/fuse-openwrt-mod
+git clone https://github.com/xwings/fusee-openwrt-mod
 git clone -b lede-17.01 https://git.openwrt.org/source.git fusee-openwrt-img
 ```
 
