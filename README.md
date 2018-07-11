@@ -19,7 +19,7 @@ Note: payload.bin is from https://sx.xecuter.com/download/payload.bin
 
 ```sh
 git clone https://github.com/xwings/fusee-openwrt-mod
-git clone -b lede-17.01 https://git.openwrt.org/source.git fusee-openwrt-img
+git clone -b openwrt-18.06 https://git.openwrt.org/source.git fusee-openwrt-img
 ```
 
 2. Copy over the `fusee-nano` package, and the EHCI patch
